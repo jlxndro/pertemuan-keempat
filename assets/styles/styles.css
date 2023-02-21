@@ -1,0 +1,64 @@
+.hello {
+    color: rgb(104, 104, 1);
+    text-align: center;
+}
+.world {
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.dicoding {
+    text-decoration: none;
+    text-align: center;
+}
+.image{
+    width: 500px;
+    height: 300px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border-style: double;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.card{
+    position: relative;
+}
+.liked{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: cornflowerblue;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.name_price{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: azure;
+}
+.box_container{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 10px;
+}
